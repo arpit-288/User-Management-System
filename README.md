@@ -53,7 +53,12 @@ This User Management System performs the following core operations:
 
 ## Setup Instructions
 
-Step 1: Clone the Repository
+Step 1: Prerequisites
+#### Node.js (v14+)
+#### MongoDB (running locally or a MongoDB Compass connection string)
+#### Git (for cloning the project)
+
+Step 2: Clone the Repository
 Clone the repository to your local machine using:
 
 ```bash
@@ -61,14 +66,14 @@ git clone https://github.com/arpit-288/User-Management-System
 cd your-repo-name
 ```
 
-Step 2: Install Dependencies
+Step 3: Install Dependencies
 Navigate to the project directory and install the required packages:
 
 ```bash
 npm install
 ```
 
-Step 3: Set Up Environment Variables
+Step 4: Set Up Environment Variables
 Create a .env file in the root of the project with the following contents:
 
 ```painText
@@ -86,7 +91,7 @@ EMAIL_USER = 'abc@gmail.com'
 EMAIL_PASS = 'password'
 ```
 
-Step 4: Start the Server
+Step 5: Start the Server
 To start the development server, run:
 
 ```bash
