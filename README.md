@@ -30,6 +30,27 @@ This User Management System performs the following core operations:
 #### Swagger - Auto-generates interactive API documentation, making it easier for developers to understand and test endpoints.
 
 
+## Additional Features Implemented
+
+### 1. Modern JavaScript (ES6) Features:
+#### Arrow Functions: Streamlined syntax and improved readability across all functions.
+#### Destructuring: Utilized destructuring for cleaner and more maintainable code when handling objects and arrays.
+#### Template Literals: Improved string handling, especially for dynamic content in responses and error messages.
+#### Async/Await: Used async/await syntax for asynchronous operations, resulting in better readability and flow control in asynchronous code.
+
+### 2. MVC Architecture:
+
+#### Structured the project following the Model-View-Controller (MVC) architecture to ensure separation of concerns and modularity.
+#### Organized the code into distinct folders for Models, Views (primarily for API responses and error handling), and Controllers to handle the core application logic.
+#### This architecture enhances maintainability, scalability, and makes future feature expansion easier.
+
+### 3. Best Coding Practices:
+
+#### Linting and Formatting: Integrated ESLint and Prettier to enforce consistent code style and eliminate common errors.
+#### Error Handling: Used centralized error handling middleware, enabling structured and uniform error responses.
+#### Environment-Based Configuration: Implemented configuration management using environment variables to support different environments (development, production) securely.
+
+
 ## Setup Instructions
 
 Step 1: Clone the Repository
